@@ -72,7 +72,7 @@ export default function index() {
       </View>
 
       <View style={styles.display}>
-        <Text>{currentValue}</Text>
+        <Text style={styles.textDisplay}>{currentValue}</Text>
       </View>
 
       <View style={styles.grillaBotones}>
@@ -130,6 +130,10 @@ const styles = StyleSheet.create({
     justifyContent: "flex-end",
     padding: 15,
     backgroundColor: Colors.displayBg,
+  },
+  textDisplay: {
+    fontSize: 40,
+    color: Colors.hist,
   },
   historial: {
     fontSize: 14,
